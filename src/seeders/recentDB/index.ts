@@ -1,11 +1,12 @@
-import * as account from './kpi.account.json';
-import * as session from './kpi.session.json';
-import * as tbl_departments from './kpi.tbl_departments.json';
-import * as tbl_kpi_audit_logs from './kpi.tbl_kpi_audit_logs.json';
-import * as tbl_kpi_entries from './kpi.tbl_kpi_entries.json';
-import * as tbl_kpi_templates from './kpi.tbl_kpi_templates.json';
-import * as tbl_members from './kpi.tbl_members.json';
-import * as user from './kpi.user.json';
+// Import JSON files using require to get the actual arrays
+const account = require('./kpi.account.json');
+const session = require('./kpi.session.json');
+const tbl_departments = require('./kpi.tbl_departments.json');
+const tbl_kpi_audit_logs = require('./kpi.tbl_kpi_audit_logs.json');
+const tbl_kpi_entries = require('./kpi.tbl_kpi_entries.json');
+const tbl_kpi_templates = require('./kpi.tbl_kpi_templates.json');
+const tbl_members = require('./kpi.tbl_members.json');
+const user = require('./kpi.user.json');
 
 import connectDB, { db } from '@/configs/db/mongodb';
 import { ObjectId } from 'mongodb';
@@ -41,10 +42,10 @@ export async function seedDatabase(): Promise<SeederResult[]> {
       { name: 'tbl_kpi_audit_logs', data: tbl_kpi_audit_logs },
     ];
 
-    // Debug: Log data lengths
+    // Debug: Log data lengths and types
     collections.forEach((col) => {
       logger.info(
-        `Collection ${col.name}: ${Array.isArray(col.data) ? col.data.length : 'not array'} items`
+        `Collection ${col.name}: type=${typeof col.data}, isArray=${Array.isArray(col.data)}, length=${Array.isArray(col.data) ? col.data.length : 'N/A'}`
       );
     });
 
