@@ -41,6 +41,13 @@ export async function seedDatabase(): Promise<SeederResult[]> {
       { name: 'tbl_kpi_audit_logs', data: tbl_kpi_audit_logs },
     ];
 
+    // Debug: Log data lengths
+    collections.forEach((col) => {
+      logger.info(
+        `Collection ${col.name}: ${Array.isArray(col.data) ? col.data.length : 'not array'} items`
+      );
+    });
+
     for (const collection of collections) {
       const result = await seedCollection(collection.name, collection.data);
       results.push(result);
