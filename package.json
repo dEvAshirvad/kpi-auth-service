@@ -24,7 +24,8 @@
     "seed": "ts-node src/scripts/seed.ts seed",
     "seed:reset": "ts-node src/scripts/seed.ts reset",
     "seed:clear": "ts-node src/scripts/seed.ts clear",
-    "seed:departments": "ts-node src/scripts/seed.ts departments"
+    "seed:departments": "ts-node src/scripts/seed.ts departments",
+    "seed:recent": "ts-node -r tsconfig-paths/register src/seeders/recentDB/index.ts"
   },
   "knip": {
     "entry": [

@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "68856b8bf08197dbedff1398"
+  },
+  "name": "Revenue Department",
+  "slug": "revenue-department",
+  "logo": "💰",
+  "metadata": "{\"description\":\"Revenue collection and financial management\",\"color\":\"#10B981\",\"category\":\"Finance\"}",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-26T23:58:03.428Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-26T23:58:03.428Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68856b8bf08197dbedff1399"
+  },
+  "name": "Collector Office",
+  "slug": "collector-office",
+  "logo": "📋",
+  "metadata": "{\"description\":\"Administrative services\",\"color\":\"#3B82F6\",\"category\":\"Administration\"}",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-26T23:58:03.429Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-26T23:58:03.429Z"
+  }
+}]

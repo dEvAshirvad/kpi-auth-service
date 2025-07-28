@@ -1,0 +1,683 @@
+[{
+  "_id": {
+    "$oid": "6885ed49675a5560f936b066"
+  },
+  "kpiTemplateId": "6885966e9f62398577dad625",
+  "values": [],
+  "totalScore": 0,
+  "status": "created",
+  "createdBy": "68856c83d01f1d8f70e1c080",
+  "createdFor": "68857e1295171d2e51e55998",
+  "jurisdiction": [
+    "raipur",
+    "halka1"
+  ],
+  "kpirefs": "halka1",
+  "month": 7,
+  "year": 2025,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-27T09:11:37.303Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-27T09:11:37.303Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6885ed49675a5560f936b067"
+  },
+  "kpiTemplateId": "6885966e9f62398577dad625",
+  "values": [
+    {
+      "name": "बटांकन",
+      "value": 35,
+      "score": 0,
+      "isByPassed": false,
+      "_id": {
+        "$oid": "6885f09bd8bf7d2f24544736"
+      }
+    },
+    {
+      "name": "डिजिटल हस्ताक्षर",
+      "value": 65,
+      "score": 0,
+      "isByPassed": false,
+      "_id": {
+        "$oid": "6885f09bd8bf7d2f24544737"
+      }
+    },
+    {
+      "name": "पटवारी प्रतिवेदन",
+      "value": 92,
+      "score": 0,
+      "isByPassed": false,
+      "_id": {
+        "$oid": "6885f09bd8bf7d2f24544738"
+      }
+    },
+    {
+      "name": "आधार सीडिंग",
+      "value": 50,
+      "score": 0,
+      "isByPassed": false,
+      "_id": {
+        "$oid": "6885f09bd8bf7d2f24544739"
+      }
+    }
+  ],
+  "totalScore": 0,
+  "status": "initiated",
+  "createdBy": "68856c83d01f1d8f70e1c080",
+  "createdFor": "68857e2b95171d2e51e5599d",
+  "jurisdiction": [
+    "raipur",
+    "halka2",
+    "halka3"
+  ],
+  "kpirefs": "halka2",
+  "month": 7,
+  "year": 2025,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-27T09:11:37.304Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-27T09:25:47.481Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6885ed49675a5560f936b068"
+  },
+  "kpiTemplateId": "6885966e9f62398577dad625",
+  "values": [],
+  "totalScore": 0,
+  "status": "created",
+  "createdBy": "68856c83d01f1d8f70e1c080",
+  "createdFor": "68857e2b95171d2e51e5599d",
+  "jurisdiction": [
+    "raipur",
+    "halka2",
+    "halka3"
+  ],
+  "kpirefs": "halka3",
+  "month": 7,
+  "year": 2025,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-27T09:11:37.304Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-27T09:11:37.304Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6885ed49675a5560f936b069"
+  },
+  "kpiTemplateId": "6885966e9f62398577dad625",
+  "values": [],
+  "totalScore": 0,
+  "status": "created",
+  "createdBy": "68856c83d01f1d8f70e1c080",
+  "createdFor": "68857e4095171d2e51e559a2",
+  "jurisdiction": [
+    "dharasiwa",
+    "halka1",
+    "halka2"
+  ],
+  "kpirefs": "halka1",
+  "month": 7,
+  "year": 2025,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-27T09:11:37.304Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-27T09:11:37.304Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6885ed49675a5560f936b06a"
+  },
+  "kpiTemplateId": "6885966e9f62398577dad625",
+  "values": [],
+  "totalScore": 0,
+  "status": "created",
+  "createdBy": "68856c83d01f1d8f70e1c080",
+  "createdFor": "68857e4095171d2e51e559a2",
+  "jurisdiction": [
+    "dharasiwa",
+    "halka1",
+    "halka2"
+  ],
+  "kpirefs": "halka2",
+  "month": 7,
+  "year": 2025,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-27T09:11:37.304Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-27T09:11:37.304Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688616482011f910aa02b404"
+  },
+  "kpiTemplateId": "688592833985c8e746c7bd73",
+  "values": [
+    {
+      "name": "बंटवारा",
+      "value": 88,
+      "score": 0,
+      "isByPassed": false,
+      "_id": {
+        "$oid": "68864000d661059a00d64c92"
+      }
+    },
+    {
+      "name": "नामांतरण",
+      "value": 76,
+      "score": 0,
+      "isByPassed": false,
+      "_id": {
+        "$oid": "68864000d661059a00d64c93"
+      }
+    },
+    {
+      "name": "सीमांकन",
+      "value": 98,
+      "score": 0,
+      "isByPassed": false,
+      "_id": {
+        "$oid": "68864000d661059a00d64c94"
+      }
+    },
+    {
+      "name": "B1-121",
+      "value": 77,
+      "score": 0,
+      "isByPassed": false,
+      "_id": {
+        "$oid": "68864000d661059a00d64c95"
+      }
+    },
+    {
+      "name": "अभिलेख दुरुस्ती/शुद्धि सुधार",
+      "value": 88,
+      "score": 0,
+      "isByPassed": false,
+      "_id": {
+        "$oid": "68864000d661059a00d64c96"
+      }
+    },
+    {
+      "name": "कुल निराकरण",
+      "value": 97,
+      "score": 0,
+      "isByPassed": false,
+      "_id": {
+        "$oid": "68864000d661059a00d64c97"
+      }
+    },
+    {
+      "name": "जाति प्रमाणपत्र",
+      "value": 53,
+      "score": 0,
+      "isByPassed": false,
+      "_id": {
+        "$oid": "68864000d661059a00d64c98"
+      }
+    },
+    {
+      "name": "अवैध उत्खनन/अतिक्रमण",
+      "value": 87,
+      "score": 0,
+      "isByPassed": false,
+      "_id": {
+        "$oid": "68864000d661059a00d64c99"
+      }
+    },
+    {
+      "name": "RBC 6(4)",
+      "value": 76,
+      "score": 0,
+      "isByPassed": false,
+      "_id": {
+        "$oid": "68864000d661059a00d64c9a"
+      }
+    },
+    {
+      "name": "टीएल/जनदर्शन/जनशिकायत/पीजी",
+      "value": 98,
+      "score": 0,
+      "isByPassed": false,
+      "_id": {
+        "$oid": "68864000d661059a00d64c9b"
+      }
+    }
+  ],
+  "totalScore": 0,
+  "status": "initiated",
+  "createdBy": "68856c83d01f1d8f70e1c080",
+  "createdFor": "68857d3d95171d2e51e55989",
+  "jurisdiction": [
+    "court1"
+  ],
+  "kpirefs": "court1",
+  "month": 7,
+  "year": 2025,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-27T12:06:32.395Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-27T15:04:32.663Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688616482011f910aa02b405"
+  },
+  "kpiTemplateId": "688592833985c8e746c7bd73",
+  "values": [],
+  "totalScore": 0,
+  "status": "created",
+  "createdBy": "68856c83d01f1d8f70e1c080",
+  "createdFor": "68857d4f95171d2e51e5598e",
+  "jurisdiction": [
+    "court2",
+    "court3"
+  ],
+  "kpirefs": "court2",
+  "month": 7,
+  "year": 2025,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-27T12:06:32.396Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-27T12:06:32.396Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688616482011f910aa02b406"
+  },
+  "kpiTemplateId": "688592833985c8e746c7bd73",
+  "values": [],
+  "totalScore": 0,
+  "status": "created",
+  "createdBy": "68856c83d01f1d8f70e1c080",
+  "createdFor": "68857d4f95171d2e51e5598e",
+  "jurisdiction": [
+    "court2",
+    "court3"
+  ],
+  "kpirefs": "court3",
+  "month": 7,
+  "year": 2025,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-27T12:06:32.396Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-27T12:06:32.396Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688616482011f910aa02b407"
+  },
+  "kpiTemplateId": "688592833985c8e746c7bd73",
+  "values": [],
+  "totalScore": 0,
+  "status": "created",
+  "createdBy": "68856c83d01f1d8f70e1c080",
+  "createdFor": "68857d5d95171d2e51e55993",
+  "jurisdiction": [
+    "court4",
+    "court5"
+  ],
+  "kpirefs": "court4",
+  "month": 7,
+  "year": 2025,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-27T12:06:32.396Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-27T12:06:32.396Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688616482011f910aa02b408"
+  },
+  "kpiTemplateId": "688592833985c8e746c7bd73",
+  "values": [],
+  "totalScore": 0,
+  "status": "created",
+  "createdBy": "68856c83d01f1d8f70e1c080",
+  "createdFor": "68857d5d95171d2e51e55993",
+  "jurisdiction": [
+    "court4",
+    "court5"
+  ],
+  "kpirefs": "court5",
+  "month": 7,
+  "year": 2025,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-27T12:06:32.396Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-27T12:06:32.396Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6886920c00a83f023083b73e"
+  },
+  "kpiTemplateId": "6885964d9f62398577dad622",
+  "values": [
+    {
+      "name": "व्यपवर्तन",
+      "value": 88,
+      "score": 8,
+      "isByPassed": false,
+      "_id": {
+        "$oid": "6886975367083e4c25028732"
+      }
+    },
+    {
+      "name": "अभिलेख दुरुस्ती/त्रुटियुधार",
+      "value": 77,
+      "score": 7,
+      "isByPassed": false,
+      "_id": {
+        "$oid": "6886975367083e4c25028733"
+      }
+    },
+    {
+      "name": "अपील निराकरण",
+      "value": 60,
+      "score": 6,
+      "isByPassed": false,
+      "_id": {
+        "$oid": "6886975367083e4c25028734"
+      }
+    },
+    {
+      "name": "कुल प्रकरणों का निराकरण",
+      "value": 80,
+      "score": 24,
+      "isByPassed": false,
+      "_id": {
+        "$oid": "6886975367083e4c25028735"
+      }
+    },
+    {
+      "name": "जाति प्रमाणपत्र",
+      "value": 70,
+      "score": 7,
+      "isByPassed": false,
+      "_id": {
+        "$oid": "6886975367083e4c25028736"
+      }
+    },
+    {
+      "name": "RBC 6(4)",
+      "value": 82,
+      "score": 8,
+      "isByPassed": false,
+      "_id": {
+        "$oid": "6886975367083e4c25028737"
+      }
+    },
+    {
+      "name": "टीएल/जनदर्शन/जनशिकायत/पीजी",
+      "value": 70,
+      "score": 7,
+      "isByPassed": false,
+      "_id": {
+        "$oid": "6886975367083e4c25028738"
+      }
+    }
+  ],
+  "totalScore": 67,
+  "status": "initiated",
+  "createdBy": "68856c83d01f1d8f70e1c080",
+  "createdFor": "68857406b8952ea08cecc71e",
+  "jurisdiction": [],
+  "month": 7,
+  "year": 2025,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-27T20:54:36.646Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-27T21:17:07.625Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6886920c00a83f023083b73f"
+  },
+  "kpiTemplateId": "6885964d9f62398577dad622",
+  "values": [],
+  "totalScore": 0,
+  "status": "created",
+  "createdBy": "68856c83d01f1d8f70e1c080",
+  "createdFor": "688574af81731985e700955b",
+  "jurisdiction": [],
+  "month": 7,
+  "year": 2025,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-27T20:54:36.646Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-27T20:54:36.646Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6886920c00a83f023083b740"
+  },
+  "kpiTemplateId": "6885964d9f62398577dad622",
+  "values": [],
+  "totalScore": 0,
+  "status": "created",
+  "createdBy": "68856c83d01f1d8f70e1c080",
+  "createdFor": "6885762427af53c7f1b9d664",
+  "jurisdiction": [],
+  "month": 7,
+  "year": 2025,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-27T20:54:36.646Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-27T20:54:36.646Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6886920c00a83f023083b741"
+  },
+  "kpiTemplateId": "6885964d9f62398577dad622",
+  "values": [],
+  "totalScore": 0,
+  "status": "created",
+  "createdBy": "68856c83d01f1d8f70e1c080",
+  "createdFor": "68857848990142f527925fbf",
+  "jurisdiction": [],
+  "month": 7,
+  "year": 2025,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-27T20:54:36.646Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-27T20:54:36.646Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6886ae1bcada157e305c96e6"
+  },
+  "kpiTemplateId": "688596889f62398577dad628",
+  "values": [],
+  "totalScore": 0,
+  "status": "created",
+  "createdBy": "68856c83d01f1d8f70e1c080",
+  "createdFor": "68857cb595171d2e51e55975",
+  "jurisdiction": [
+    "raipur",
+    "circle1"
+  ],
+  "kpirefs": "circle1",
+  "month": 7,
+  "year": 2025,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-27T22:54:19.533Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-27T22:54:19.533Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6886ae1bcada157e305c96e7"
+  },
+  "kpiTemplateId": "688596889f62398577dad628",
+  "values": [],
+  "totalScore": 0,
+  "status": "created",
+  "createdBy": "68856c83d01f1d8f70e1c080",
+  "createdFor": "68857cca95171d2e51e5597a",
+  "jurisdiction": [
+    "raipur",
+    "circle2",
+    "circle3"
+  ],
+  "kpirefs": "circle2",
+  "month": 7,
+  "year": 2025,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-27T22:54:19.534Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-27T22:54:19.534Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6886ae1bcada157e305c96e8"
+  },
+  "kpiTemplateId": "688596889f62398577dad628",
+  "values": [],
+  "totalScore": 0,
+  "status": "created",
+  "createdBy": "68856c83d01f1d8f70e1c080",
+  "createdFor": "68857cca95171d2e51e5597a",
+  "jurisdiction": [
+    "raipur",
+    "circle2",
+    "circle3"
+  ],
+  "kpirefs": "circle3",
+  "month": 7,
+  "year": 2025,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-27T22:54:19.534Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-27T22:54:19.534Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6886ae1bcada157e305c96e9"
+  },
+  "kpiTemplateId": "688596889f62398577dad628",
+  "values": [],
+  "totalScore": 0,
+  "status": "created",
+  "createdBy": "68856c83d01f1d8f70e1c080",
+  "createdFor": "68857cdb95171d2e51e5597f",
+  "jurisdiction": [
+    "dharasiwa",
+    "circle1",
+    "circle2"
+  ],
+  "kpirefs": "circle1",
+  "month": 7,
+  "year": 2025,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-27T22:54:19.534Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-27T22:54:19.534Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6886ae1bcada157e305c96ea"
+  },
+  "kpiTemplateId": "688596889f62398577dad628",
+  "values": [],
+  "totalScore": 0,
+  "status": "created",
+  "createdBy": "68856c83d01f1d8f70e1c080",
+  "createdFor": "68857cdb95171d2e51e5597f",
+  "jurisdiction": [
+    "dharasiwa",
+    "circle1",
+    "circle2"
+  ],
+  "kpirefs": "circle2",
+  "month": 7,
+  "year": 2025,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-27T22:54:19.534Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-27T22:54:19.534Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6886ae1bcada157e305c96eb"
+  },
+  "kpiTemplateId": "688596889f62398577dad628",
+  "values": [],
+  "totalScore": 0,
+  "status": "created",
+  "createdBy": "68856c83d01f1d8f70e1c080",
+  "createdFor": "68857ceb95171d2e51e55984",
+  "jurisdiction": [
+    "dharasiwa",
+    "circle3"
+  ],
+  "kpirefs": "circle3",
+  "month": 7,
+  "year": 2025,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-07-27T22:54:19.534Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-27T22:54:19.534Z"
+  }
+}]
