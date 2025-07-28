@@ -8,6 +8,7 @@ import * as tbl_members from './kpi.tbl_members.json';
 import * as user from './kpi.user.json';
 
 import connectDB, { db } from '@/configs/db/mongodb';
+import { ObjectId } from 'mongodb';
 import logger from '@/configs/logger';
 
 interface SeederResult {
@@ -91,10 +92,15 @@ async function seedCollection(
       return result;
     }
 
+    // Convert MongoDB extended JSON format to proper objects
+    const convertedData = data.map((doc) => convertMongoDBExtendedJSON(doc));
+
     // Insert data
-    const insertResult = await db.collection(collectionName).insertMany(data, {
-      ordered: false, // Continue inserting even if some documents fail
-    });
+    const insertResult = await db
+      .collection(collectionName)
+      .insertMany(convertedData, {
+        ordered: false, // Continue inserting even if some documents fail
+      });
 
     result.inserted = insertResult.insertedCount;
     logger.info(`Seeded ${result.inserted} documents in ${collectionName}`);
@@ -105,6 +111,34 @@ async function seedCollection(
   }
 
   return result;
+}
+
+function convertMongoDBExtendedJSON(obj: any): any {
+  if (obj === null || obj === undefined) {
+    return obj;
+  }
+
+  if (Array.isArray(obj)) {
+    return obj.map((item) => convertMongoDBExtendedJSON(item));
+  }
+
+  if (typeof obj === 'object') {
+    const converted: any = {};
+
+    for (const [key, value] of Object.entries(obj)) {
+      if (key === '$oid') {
+        return new ObjectId(value as string);
+      } else if (key === '$date') {
+        return new Date(value as string);
+      } else {
+        converted[key] = convertMongoDBExtendedJSON(value);
+      }
+    }
+
+    return converted;
+  }
+
+  return obj;
 }
 
 // CLI interface
