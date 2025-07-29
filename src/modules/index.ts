@@ -1,7 +1,7 @@
-import { createRouter } from '@/configs/server.config';
+import express from 'express';
 import membersRouter from './members/members.route';
 
-const router = createRouter();
+const router = express.Router();
 
 // Register routes
 router.use('/members', membersRouter);

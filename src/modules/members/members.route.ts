@@ -1,7 +1,7 @@
-import { createRouter } from '@/configs/server.config';
+import express from 'express';
 import { MemberHandler } from './members.handler';
 
-const router = createRouter();
+const router = express.Router();
 
 router.get('/', MemberHandler.getMembers);
 router.get('/me', MemberHandler.getMyMember);
