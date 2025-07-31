@@ -143,6 +143,7 @@ const betterAuthConfig: BetterAuthOptions = {
     'https://filesapi.rdmp.in',
     'https://rdmp.in', // Root domain
     'https://rahatapi.rdmp.in',
+    'https://urvi.rdmp.in',
   ],
 };
 
