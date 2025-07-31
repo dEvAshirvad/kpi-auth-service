@@ -127,6 +127,11 @@ const betterAuthConfig: BetterAuthOptions = {
     'http://69.62.77.63:3037',
     'http://69.62.77.63:3038',
     'http://69.62.77.63:3039',
+    'https://kpiservice.rdmp.in',
+    'https://auth.rdmp.in',
+    'https://shresth.rdmp.in',
+    'https://rahat.rdmp.in',
+    'https://filesapi.rdmp.in',
   ],
 };
 
