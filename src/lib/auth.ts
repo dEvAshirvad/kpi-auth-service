@@ -100,9 +100,14 @@ const betterAuthConfig: BetterAuthOptions = {
   database: mongodbAdapter(db),
   plugins: [openAPI(), admin()],
   advanced: {
-    cookiePrefix: 'kpi-central',
+    cookiePrefix: 'rdmp-auth',
+    crossSubDomainCookies: {
+      enabled: true,
+      domain: '.rdmp.in', // This allows cookies to be shared across all subdomains of rdmp.in
+    },
   },
   trustedOrigins: [
+    // Local development
     'http://localhost:3001',
     'http://localhost:3000',
     'http://localhost:3002',
@@ -117,6 +122,8 @@ const betterAuthConfig: BetterAuthOptions = {
     'http://localhost:3037',
     'http://localhost:3038',
     'http://localhost:3039',
+
+    // Production server IPs
     'http://69.62.77.63:3030',
     'http://69.62.77.63:3031',
     'http://69.62.77.63:3032',
@@ -127,11 +134,14 @@ const betterAuthConfig: BetterAuthOptions = {
     'http://69.62.77.63:3037',
     'http://69.62.77.63:3038',
     'http://69.62.77.63:3039',
+
+    // Production subdomains
     'https://kpiservice.rdmp.in',
     'https://auth.rdmp.in',
     'https://shresth.rdmp.in',
     'https://rahat.rdmp.in',
     'https://filesapi.rdmp.in',
+    'https://rdmp.in', // Root domain
   ],
 };
 
